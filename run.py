@@ -2,8 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 import B2U1,B2U9,B2U3,B2U10,B2U12,B2U13,B2U2,B2U11,B2U6,B2U5,B2U8,B2U14,B2U4,B2U7,B2U132
-username ='201601061316' #input('请输入账号>>')
-pwd ='lhj980205' #input('请输入密码>>')
+username = input('请输入账号>>')
+pwd = input('请输入密码>>')
 npelsurl = 'http://192.168.100.117/NPELS'
 driver = webdriver.Chrome()
 driver.get(npelsurl)
