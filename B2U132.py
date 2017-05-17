@@ -2,7 +2,7 @@ import time
 
 def b2u132(driver):
     driver.find_element_by_css_selector('#ctl00_ContentPlaceHolder1_CourseTestTask1_dgTestTask_ctl19_PAGER > div > ul > li.enablepage > a').click()
-    driver.find_element_by_css_selector(' #ctl00_ContentPlaceHolder1_CourseTestTask1_dgTestTask_ctl07_Action > span > input[type="button"]').click()
+    driver.find_element_by_css_selector('#ctl00_ContentPlaceHolder1_CourseTestTask1_dgTestTask_ctl08_Action > span > input[type="button"]').click()
     time.sleep(5)
     # 1-5
 
